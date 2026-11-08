@@ -5,7 +5,7 @@
 
 - リポジトリ: https://github.com/a-mi3/sakuragawa-crew （`main` が公開用）
 - Instagram: https://www.instagram.com/sakuragawacrew/
-- 公開予定: GitHub → Vercel（自動デプロイ）＋ 独自ドメイン
+- 公開先: https://sakuragawa-crew.see-en.net/ （see-en.net のサーバーへFTPでアップロード。Vercelは使わない）
 
 ## 構成
 ```
@@ -20,10 +20,10 @@ robots.txt, sitemap.xml
 - [x] ページ実装（スマホ対応）、写真・ロゴは元画像から作成
 - [x] Instagramリンク設定済み
 - [x] OGP・ファビコン・robots.txt・sitemap.xml 追加、画像webp化
-- [ ] Vercelにインポートして公開（設定は変更不要・Framework Preset は Other）
-- [ ] 独自ドメインを決めて Vercel の Settings → Domains に追加（DNS設定はドメイン側）
-- [ ] ドメイン確定後、`YOUR-DOMAIN` を置換（下記）
-- [ ] 公開後にSNS共有時の見え方（OGP）とスマホ実機表示を確認
+- [x] サブドメイン `sakuragawa-crew.see-en.net` を登録し、`YOUR-DOMAIN` を置換済み
+- [x] FTPで `public_html/sakuragawa-crew/` にアップロードして公開済み
+- [x] お問い合わせボタン（Googleフォーム https://forms.gle/QqmuJNmbf98xmZ4E9 ）を追加。回答はメール通知
+- [ ] SNS共有時の見え方（OGP）とスマホ実機表示を確認
 
 ## ドメイン確定後の置換
 `index.html`（canonical / og:url / og:image）、`robots.txt`、`sitemap.xml` に仮の `YOUR-DOMAIN` が入っている。
