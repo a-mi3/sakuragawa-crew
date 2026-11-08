@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://YOUR-DOMAIN/sitemap.xml
+Sitemap: https://sakuragawa-crew.see-en.net/sitemap.xml
