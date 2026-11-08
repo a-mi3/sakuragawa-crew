@@ -28,7 +28,7 @@ h2 em{font-style:normal;color:var(--orange)}
 .hero .inner{width:100%}
 .hero-body{max-width:560px}
 .hero img.logo{width:150px;height:auto;mix-blend-mode:multiply;margin-bottom:18px}
-.hero h1{font-size:clamp(2.4rem,6vw,4rem);line-height:1.3;color:#1c1c1c;letter-spacing:.06em}
+.hero h1{font-size:clamp(2rem,5.2vw,3.4rem);line-height:1.3;color:#1c1c1c;letter-spacing:.06em}
 .hero .sub{margin:14px 0 0;padding-bottom:14px;border-bottom:2px solid var(--pink);font-family:"Hiragino Sans","Noto Sans JP",sans-serif;letter-spacing:.1em;font-size:clamp(.95rem,2vw,1.1rem)}
 .hero p.desc{margin:22px 0 28px;font-family:"Hiragino Sans","Noto Sans JP",sans-serif;font-size:.98rem;color:#333}
 .btn-insta{display:inline-flex;align-items:center;gap:14px;padding:16px 36px;border-radius:999px;color:#fff;text-decoration:none;font-family:"Hiragino Sans","Noto Sans JP",sans-serif;font-weight:700;letter-spacing:.05em;background:linear-gradient(90deg,#f5873a,#e0407a 55%,#7a4cd6);box-shadow:0 8px 20px rgba(200,70,110,.3);transition:transform .2s}
@@ -69,6 +69,9 @@ tr:last-child th,tr:last-child td{border-bottom:none}
 .cta .btn-cta{display:inline-flex;align-items:center;gap:16px;margin:32px 0 14px;padding:20px 56px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-family:"Hiragino Sans","Noto Sans JP",sans-serif;font-weight:700;font-size:1.1rem;box-shadow:0 10px 24px rgba(207,106,69,.35);transition:transform .2s}
 .cta .btn-cta:hover{transform:translateY(-2px)}
 .cta .btn-cta svg{width:28px;height:28px}
+.cta .contact{margin-top:56px;padding-top:40px;border-top:1px solid rgba(0,0,0,.1)}
+.cta .btn-contact{display:inline-flex;align-items:center;gap:12px;margin:20px 0 14px;padding:16px 48px;border-radius:999px;background:#fff;color:var(--green);border:2px solid var(--green);text-decoration:none;font-family:"Hiragino Sans","Noto Sans JP",sans-serif;font-weight:700;font-size:1.05rem;transition:transform .2s}
+.cta .btn-contact:hover{transform:translateY(-2px)}
 .cta .small{font-family:"Hiragino Sans","Noto Sans JP",sans-serif;font-size:.9rem;color:#444;margin-top:6px}
 footer{text-align:center;padding:28px;background:var(--green);color:#dfe9dc;font-family:"Hiragino Sans","Noto Sans JP",sans-serif;font-size:.85rem}
 
@@ -115,7 +118,7 @@ footer{text-align:center;padding:28px;background:var(--green);color:#dfe9dc;font
   <div class="inner">
     <div class="hero-body">
       <img class="logo" src="images/logo.webp" width="150" height="150" alt="Sakuragawa Crew ロゴ">
-      <h1>桜川を、<br>もっとおもしろく。</h1>
+      <h1>桜川を、<br><span style="white-space:nowrap">もっとおもしろく。</span></h1>
       <p class="sub">得意なことを持ち寄って、桜川に“楽しい”をつくる地域のチームです。</p>
       <a class="btn-insta" href="https://www.instagram.com/sakuragawacrew/" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="#fff" stroke="none"/></svg>
@@ -252,6 +255,13 @@ footer{text-align:center;padding:28px;background:var(--green);color:#dfe9dc;font
       Instagramを見る <span aria-hidden="true">→</span>
     </a>
     <p class="small">※Instagramへ移動します</p>
+    <div class="contact">
+      <p class="small" style="font-size:1rem">お問い合わせは、こちらのフォームからお願いします。</p>
+      <a class="btn-contact" href="https://forms.gle/QqmuJNmbf98xmZ4E9" target="_blank" rel="noopener">
+        お問い合わせ <span aria-hidden="true">→</span>
+      </a>
+      <p class="small">※Googleフォームへ移動します</p>
+    </div>
   </div>
 </section>
 
